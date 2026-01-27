@@ -8,7 +8,7 @@
   margin: 0 auto; /* Centraliza o container */
   padding: 40px 20px;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: var(--bg);
   min-height: 100vh;
   box-sizing: border-box; /* Inclui o padding no cálculo da largura */
 }
@@ -24,13 +24,36 @@
 }
 
 .service-item {
-  background: white;
+  background: var(--card-bg);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-sizing: border-box; /* Garante que o padding não ultrapasse a largura */
+}
+
+.service-item .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(0,230,230,0.08), rgba(97,218,251,0.05));
+  color: var(--neon);
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.service-item h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.service-item p {
+  margin-top: 8px;
 }
 
 .service-item:hover {
@@ -41,7 +64,7 @@
 .service-item h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #007bff;
+  color: var(--primary);
 }
 
 .service-item p {

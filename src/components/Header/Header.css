@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #282c34;
+  background-color: var(--header-bg);
 }
 
 .header__text {
@@ -15,12 +15,12 @@
   position: relative;
   display: flex;
   align-items: center;
-  text-shadow: 0 0 5px #00e6e6, 0 0 10px #00e6e6, 0 0 15px #00e6e6; /* Efeito neon nas letras */
+  text-shadow: 0 0 5px var(--neon), 0 0 10px var(--neon), 0 0 15px var(--neon); /* Efeito neon nas letras */
   transition: text-shadow 0.3s ease-in-out; /* Suaviza o efeito */
 }
 
 .header__text:hover {
-  text-shadow: 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6; /* Intensifica o brilho no hover */
+  text-shadow: 0 0 20px var(--neon), 0 0 30px var(--neon), 0 0 40px var(--neon); /* Intensifica o brilho no hover */
 }
 
 .header__nav {
@@ -40,10 +40,10 @@
 
 .header__nav-link {
   text-decoration: none;
-  color: #61dafb;
+  color: var(--accent);
   font-size: 16px;
 }
 
 .header__nav-link:hover {
-  color: #21a1f1;
+  color: var(--primary);
 }

@@ -13,6 +13,7 @@ const WhatsappButton: React.FC<WhatsappButtonProps> = ({ phoneNumber }) => {
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-button"
+      aria-label="Abrir chat no WhatsApp"
     >
       {/* Tamanho do ícone ajustado via prop 'size' */}
       <FaWhatsapp size={40} style={{ color: '#fff' }} />

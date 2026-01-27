@@ -79,8 +79,8 @@ function calculateTotalProgress(tasks: Task[]): number {
 export const data: Project[] = [
     {
         id: 1,
-        title: "HOW TO MAKE",
-        subtitle: "Plataforma de cursos",
+        title: "HKTEC",
+        subtitle: "Software as a Service",
         status: "iniciado",
         image: img3,
         date: "2024-06-01T00:00:00.000Z",

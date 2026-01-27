@@ -38,7 +38,6 @@ const Countdown2: React.FC<CountdownProps> = ({ data, title }) => {
 
   return (
     <div className="countdown-card">
-      <h2 className="countdown-title">{title}</h2>
       <div className="timer-wrapper">
         <div className="timer-inner">
           <div className="timer-segment">

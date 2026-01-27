@@ -12,12 +12,14 @@
 }
 
 .card {
-  background: #fff;
+  background: var(--card-bg);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: transform 0.2s, filter 0.3s ease-in-out;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
+  flex: 1 1 320px;
   position: relative; /* Para posicionar a sobreposição "Em breve..." */
 }
 
@@ -29,6 +31,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  display: block;
 }
 
 .content {
@@ -49,8 +52,8 @@
 
 .progress-container {
   margin-bottom: 15px;
-  background-color: black;
-  color: white;
+  background-color: var(--dark-bg);
+  color: #fff;
   padding: 10px;
   border-radius: 5px;
 }
@@ -68,6 +71,12 @@
   margin-top: 5px;
 }
 
+.progress-percentage {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
 /* Alinhar os botões à esquerda */
 .btn-website, .btn {
   display: flex;
@@ -75,13 +84,15 @@
   margin-top: 10px;
 }
 
-/* Estilo dos botões */
-.btn-website button, .btn button {
+/* Estilo dos links que se comportam como botões */
+
+.btn-website-link, .btn-link {
+  display: inline-block;
   background-color: #222;
-  color: #00e6e6; /* Cor neon */
-  border: none;
+  color: var(--neon); /* Cor neon */
   padding: 10px 20px;
   border-radius: 5px;
+  text-decoration: none;
   cursor: pointer;
   position: relative;
   transition: color 0.3s, background-color 0.3s;
@@ -89,17 +100,12 @@
   overflow: hidden;
 }
 
-.btn-website button a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.btn-website button:hover, .btn button:hover {
+.btn-website-link:hover, .btn-link:hover {
   color: #222;
-  background-color: #00e6e6;
+  background-color: var(--neon);
 }
 
-.btn-website button::before, .btn button::before {
+.btn-website-link::before, .btn-link::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -113,7 +119,7 @@
   transform: translate(-50%, -50%) scale(0);
 }
 
-.btn-website button:hover::before, .btn button:hover::before {
+.btn-website-link:hover::before, .btn-link:hover::before {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
   animation: neonGlow 2s infinite alternate;
@@ -169,6 +175,19 @@
   filter: blur(5px);
   pointer-events: none; /* Evita que o usuário interaja com o card */
   opacity: 0.6; /* Adicionando um pouco de transparência para destacar o blur */
+}
+
+@media (max-width: 600px) {
+  .slider {
+    gap: 12px;
+  }
+  .card {
+    max-width: 90%;
+    width: 90%;
+  }
+  .img img {
+    height: auto;
+  }
 }
 
 /* Sobreposição com texto "Em breve..." */

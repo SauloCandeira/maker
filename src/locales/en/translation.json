@@ -1,7 +1,25 @@
 {
   "founderCard": {
-    "name": "Saulo Candeira",
-    "position": "Software and Electronics Developer",
+  "realEstate": {
+    "buySell": {
+      "title": "Buy, Sell and Brokerage",
+      "desc": "Services for buying, selling and brokering residential and commercial properties — market appraisal and legal/document support."
+    },
+    "droneMapping": {
+      "title": "Drone Area Mapping",
+      "desc": "Aerial mapping for topographic surveys, inspections and generation of orthophotos and 3D models for real estate projects and assessments."
+    },
+    "auctionProperties": {
+      "title": "Auction Properties",
+      "desc": "Identification and brokerage of auction opportunities, due diligence and risk analysis prior to purchase."
+    },
+    "minhaCasa": {
+      "title": "Minha Casa Minha Vida",
+      "desc": "Assistance in finding and participating in housing programs, with eligibility guidance and paperwork support."
+    }
+  },
+
+  "projects": {
     "description": "I have a background in management, technology, and languages, and I am dedicated to software and electronics development. I aim to integrate software, 3D printing, and electronics to create technological innovations. I work as a programmer, and in my spare time, I mainly develop integrations of programmable boards with electric motors for CNC machines, scooters, bicycles, and drones.",
     "socialLinks": {
       "linkedin": "LinkedIn",
@@ -16,7 +34,8 @@
       "software": "Software",
       "electronics": "Electronics",
       "3dPrototyping": "3D Prototyping",
-      "business": "Business"
+      "business": "Business",
+      "realEstate": "Real Estate"
     },
     "software": {
       "webDevelopment": "Web Development",
@@ -49,6 +68,8 @@
       "managementSystemDesc": "Project management system to maximize business or project efficiency."
     }
   },
+
+    "realEstate": {},
 
 
   "projects": {

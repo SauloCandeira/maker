@@ -24,9 +24,10 @@ const Home: React.FC = () => {
 
   return (
     <div className="home">
+      <a className="skip-link" href="#main">Pular para conteúdo</a>
       <Header />
 
-      <main className="home__main">
+      <main id="main" className="home__main">
         <section className="home__hero">
           <FounderCard {...founder} />
           <Services />

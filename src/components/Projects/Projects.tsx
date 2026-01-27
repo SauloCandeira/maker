@@ -29,16 +29,16 @@ function Projects() {
                             <div className="progress-container">
                                 <Countdown2 data={new Date(item.date)} title={item.title} />
                                 <progress id={`file${index}`} value={item.progress} max="100"></progress>
-                                <span id="progress-percentage">{item.progress}%</span>
+                                <span className="progress-percentage">{item.progress}%</span>
                             </div>
                             <div className="btn-website">
-                                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                    <button>{t('projects.websiteButton')}</button>
+                                <a className="btn-website-link" href={item.link} target="_blank" rel="noopener noreferrer" aria-label={`Abrir website do ${item.title}`} title={item.title}>
+                                    {t('projects.websiteButton')}
                                 </a>
                             </div>
                             <div className="btn">
-                                <Link to={`/project/${item.id}`}>
-                                    <button>{t('projects.scheduleButton')}</button>
+                                <Link className="btn-link" to={`/project/${item.id}`} aria-label={`Ver cronograma de ${item.title}`} title={t('projects.scheduleButton')}>
+                                    {t('projects.scheduleButton')}
                                 </Link>
                             </div>
                         </div>

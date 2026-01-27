@@ -1,6 +1,7 @@
 /* HeaderTwo.css */
 header {
   background-color: rgba(9, 37, 84, 0.9) !important; /* Azul escuro com 90% de opacidade */
+  height: var(--header-height);
   padding: 10px 20px;
   position: fixed;
   width: 100%;
@@ -27,7 +28,7 @@ header {
 }
 
 .btn-login {
-  background-color: #007bff; /* Cor de fundo do botão */
+  background-color: var(--primary); /* Cor de fundo do botão */
   color: #fff; /* Cor do texto do botão */
   border: none;
   padding: 10px 15px;
@@ -42,7 +43,7 @@ header {
 }
 
 .btn-login:hover {
-  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+  background-color: color-mix(in srgb, var(--primary) 70%, black);
 }
 
 .go-top {
@@ -75,16 +76,16 @@ header {
   }
 
   .btn-login {
-    background-color: #0056b3; /* Ajusta a cor de fundo do botão para contraste em dispositivos móveis */
+    background-color: var(--primary); /* Ajusta a cor de fundo do botão para contraste em dispositivos móveis */
     margin-left: 0; /* Remove a margem à esquerda no mobile */
   }
 
-  .go-top {
+    .go-top {
     display: block; /* Torna o botão de voltar ao topo visível em dispositivos móveis */
     position: fixed; /* Posiciona o botão fixo no canto inferior direito */
     bottom: 20px;
     right: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semitransparente ao botão */
+    background-color: var(--overlay-muted); /* Adiciona um fundo semitransparente ao botão */
     color: #fff; /* Cor do texto do botão */
     border-radius: 50%; /* Torna o botão circular */
     padding: 10px;

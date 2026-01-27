@@ -19,6 +19,7 @@ const Services: React.FC = () => {
           <Tab className="react-tabs__tab">{t('services.tabs.electronics')}</Tab>
           <Tab className="react-tabs__tab">{t('services.tabs.3dPrototyping')}</Tab>
           <Tab className="react-tabs__tab">{t('services.tabs.business')}</Tab>
+          <Tab className="react-tabs__tab">{t('services.tabs.realEstate')}</Tab>
         </TabList>
 
         <TabPanel>
@@ -31,11 +32,7 @@ const Services: React.FC = () => {
               <h2>{t('services.software.mobileDevelopment')}</h2>
               <p>{t('services.software.mobileDevelopmentDesc')}</p>
             </div>
-            <div className="service-item">
-              <h2>{t('services.software.cloud')}</h2>
-              <p>{t('services.software.cloudDesc')}</p>
-            </div>
-            <div className="service-item">
+              import { FaCode, FaMobileAlt, FaCloud, FaWifi, FaCube, FaPrint, FaBusinessTime, FaProjectDiagram, FaCogs, FaHome, FaMapMarkedAlt, FaGavel, FaHouseUser } from 'react-icons/fa';
               <h2>{t('services.software.iot')}</h2>
               <p>{t('services.software.iotDesc')}</p>
             </div>
@@ -54,26 +51,30 @@ const Services: React.FC = () => {
             </div>
           </div>
         </TabPanel>
-
-        <TabPanel>
-          <div className="service-category">
-            <div className="service-item">
-              <h2>{t('services.prototyping.drawing3d')}</h2>
-              <p>{t('services.prototyping.drawing3dDesc')}</p>
-            </div>
-            <div className="service-item">
-              <h2>{t('services.prototyping.3dPrinting')}</h2>
-              <p>{t('services.prototyping.3dPrintingDesc')}</p>
-            </div>
-          </div>
-        </TabPanel>
-
-        <TabPanel>
-          <div className="service-category">
-            <div className="service-item">
-              <h2>{t('services.business.businessPlan')}</h2>
-              <p>{t('services.business.businessPlanDesc')}</p>
-            </div>
+                      <TabPanel>
+                        <div className="service-category">
+                          <div className="service-item">
+                            <span className="icon" aria-hidden="true"><FaCode /></span>
+                            <h2>{t('services.software.webDevelopment')}</h2>
+                            <p>{t('services.software.webDevelopmentDesc')}</p>
+                          </div>
+                          <div className="service-item">
+                            <span className="icon" aria-hidden="true"><FaMobileAlt /></span>
+                            <h2>{t('services.software.mobileDevelopment')}</h2>
+                            <p>{t('services.software.mobileDevelopmentDesc')}</p>
+                          </div>
+                          <div className="service-item">
+                            <span className="icon" aria-hidden="true"><FaCloud /></span>
+                            <h2>{t('services.software.cloud')}</h2>
+                            <p>{t('services.software.cloudDesc')}</p>
+                          </div>
+                          <div className="service-item">
+                            <span className="icon" aria-hidden="true"><FaWifi /></span>
+                            <h2>{t('services.software.iot')}</h2>
+                            <p>{t('services.software.iotDesc')}</p>
+                          </div>
+                        </div>
+                      </TabPanel>
             <div className="service-item">
               <h2>{t('services.business.agileMethodology')}</h2>
               <p>{t('services.business.agileMethodologyDesc')}</p>
@@ -81,6 +82,27 @@ const Services: React.FC = () => {
             <div className="service-item">
               <h2>{t('services.business.managementSystem')}</h2>
               <p>{t('services.business.managementSystemDesc')}</p>
+            </div>
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="service-category">
+            <div className="service-item">
+              <h2>{t('services.realEstate.buySell.title')}</h2>
+              <p>{t('services.realEstate.buySell.desc')}</p>
+            </div>
+            <div className="service-item">
+              <h2>{t('services.realEstate.droneMapping.title')}</h2>
+              <p>{t('services.realEstate.droneMapping.desc')}</p>
+            </div>
+            <div className="service-item">
+              <h2>{t('services.realEstate.auctionProperties.title')}</h2>
+              <p>{t('services.realEstate.auctionProperties.desc')}</p>
+            </div>
+            <div className="service-item">
+              <h2>{t('services.realEstate.minhaCasa.title')}</h2>
+              <p>{t('services.realEstate.minhaCasa.desc')}</p>
             </div>
           </div>
         </TabPanel>

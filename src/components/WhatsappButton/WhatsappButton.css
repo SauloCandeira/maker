@@ -5,10 +5,10 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25d366;
+  background-color: var(--whatsapp);
   padding: 15px;
   border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra mais suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Sombra mais suave */
   z-index: 1000;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza a transição de transformação e sombra */
   display: flex;

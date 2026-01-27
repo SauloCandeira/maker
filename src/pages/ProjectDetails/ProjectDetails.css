@@ -17,11 +17,11 @@ html, body, #root {
 
 .project-details {
   flex: 1;
-  background-color: #1f1f1f;
+  background-color: var(--dark-bg);
   color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   max-width: 100%; /* Remover restrição de largura */
   margin: 20px; /* Ajuste para espaçamento */
   text-align: center;
@@ -52,7 +52,7 @@ html, body, #root {
 }
 
 button {
-  background-color: #007bff;
+  background-color: var(--primary);
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: color-mix(in srgb, var(--primary) 70%, black);
 }
 
 .project-tasks {
