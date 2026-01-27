@@ -1,26 +1,8 @@
 {
   "founderCard": {
-  "realEstate": {
-    "buySell": {
-      "title": "Compra, Venda e Intermediação",
-      "desc": "Compra, venda e intermediação de imóveis residenciais e comerciais — avaliação de mercado e suporte documental/contratual."
-    },
-    "droneMapping": {
-      "title": "Mapeamento de Áreas com Drone",
-      "desc": "Mapeamento aéreo para levantamento topográfico, inspeção e geração de ortofotos e modelos 3D para projetos e avaliações imobiliárias."
-    },
-    "auctionProperties": {
-      "title": "Imóveis de Leilão",
-      "desc": "Identificação e intermediação em leilões, due diligence e análise de riscos antes da aquisição."
-    },
-    "minhaCasa": {
-      "title": "Minha Casa Minha Vida",
-      "desc": "Orientação e suporte na busca de imóveis e participação em programas habitacionais, com auxílio documental."
-    }
-  },
-
-  "projects": {
-    "description": "Tenho formação em gestão, tecnologia e idiomas, e sou dedicado ao desenvolvimento de software e eletrônica. Busco integrar o mundo dos softwares, impressão 3D e eletrônica para criar inovações tecnológicas. Atuo como programador e, no meu tempo livre, desenvolvo principalmente integrações de placas programáveis com motores elétricos para máquinas CNC, patinetes, bicicletas e drones..",
+    "name": "Saulo Candeira",
+    "position": "Desenvolvedor de Software e Eletrônica",
+    "description": "Tenho formação em gestão, tecnologia e idiomas, e sou dedicado ao desenvolvimento de software e eletrônica. Busco integrar o mundo dos softwares, impressão 3D e eletrônica para criar inovações tecnológicas. Atuo como programador e, no meu tempo livre, desenvolvo principalmente integrações de placas programáveis com motores elétricos para máquinas CNC, patinetes, bicicletas e drones.",
     "socialLinks": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -28,15 +10,14 @@
     }
   },
 
-
   "services": {
     "title": "Serviços",
     "tabs": {
       "software": "Software",
       "electronics": "Eletrônica",
       "3dPrototyping": "Prototipação 3D",
-      "business": "Negócios"
-      ,"realEstate": "Imobiliário"
+      "business": "Negócios",
+      "realEstate": "Imobiliário"
     },
     "software": {
       "webDevelopment": "Desenvolvimento Web",
@@ -61,17 +42,51 @@
       "3dPrintingDesc": "Transforme seus desenhos digitais em objetos físicos com nossas impressoras 3D de alta qualidade."
     },
     "business": {
-      "businessPlan": "Plano de Negócio",
-      "businessPlanDesc": "Criação de modelos de negócios para empresas que querem iniciar na era digital.",
-      "agileMethodology": "Metodologia Ágil",
-      "agileMethodologyDesc": "Implementação de metodologias ágeis para melhorar a eficiência de negócios e empresas.",
-      "managementSystem": "Sistema de Gestão",
-      "managementSystemDesc": "Sistema de gestão de projetos para maximizar a eficiência do negócio ou projeto."
+      "businessPlan": "Plano de Negócios",
+      "businessPlanDesc": "Elaboração de planos de negócios completos: análise de mercado, modelagem financeira e roteiro de implantação para validar oportunidades.",
+      "agileMethodology": "Metodologias Ágeis",
+      "agileMethodologyDesc": "Adoção e treinamento em práticas ágeis (Scrum, Kanban) para aumentar produtividade, colaboração e entrega contínua.",
+      "managementSystem": "Sistema de Gestão de Projetos",
+      "managementSystemDesc": "Implementação de processos e ferramentas para planejar, acompanhar e entregar projetos com maior controle e eficiência."
+    },
+    "realEstate": {
+      "buySell": {
+        "title": "Compra, Venda e Intermediação",
+        "desc": "Compra, venda e intermediação de imóveis residenciais e comerciais — avaliação de mercado e suporte documental/contratual."
+      },
+      "droneMapping": {
+        "title": "Mapeamento de Áreas com Drone",
+        "desc": "Mapeamento aéreo para levantamento topográfico, inspeção e geração de ortofotos e modelos 3D para projetos e avaliações imobiliárias."
+      },
+      "auctionProperties": {
+        "title": "Imóveis de Leilão",
+        "desc": "Identificação e intermediação em leilões, due diligence e análise de riscos antes da aquisição."
+      },
+      "minhaCasa": {
+        "title": "Minha Casa Minha Vida",
+        "desc": "Orientação e suporte na busca de imóveis e participação em programas habitacionais, com auxílio documental."
+      }
     }
   },
 
-  "realEstate": {},
-
+  "realEstate": {
+    "buySell": {
+      "title": "Compra, Venda e Intermediação",
+      "desc": "Compra, venda e intermediação de imóveis residenciais e comerciais — avaliação de mercado e suporte documental/contratual."
+    },
+    "droneMapping": {
+      "title": "Mapeamento de Áreas com Drone",
+      "desc": "Mapeamento aéreo para levantamento topográfico, inspeção e geração de ortofotos e modelos 3D para projetos e avaliações imobiliárias."
+    },
+    "auctionProperties": {
+      "title": "Imóveis de Leilão",
+      "desc": "Identificação e intermediação em leilões, due diligence e análise de riscos antes da aquisição."
+    },
+    "minhaCasa": {
+      "title": "Minha Casa Minha Vida",
+      "desc": "Orientação e suporte na busca de imóveis e participação em programas habitacionais, com auxílio documental."
+    }
+  },
 
   "projects": {
     "title": "Portfólio",
@@ -84,8 +99,4 @@
     "name": "Saulo Candeira",
     "allRightsReserved": "Todos os direitos reservados"
   }
-
-
-
-
 }

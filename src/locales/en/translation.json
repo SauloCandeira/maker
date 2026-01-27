@@ -1,25 +1,7 @@
 {
   "founderCard": {
-  "realEstate": {
-    "buySell": {
-      "title": "Buy, Sell and Brokerage",
-      "desc": "Services for buying, selling and brokering residential and commercial properties — market appraisal and legal/document support."
-    },
-    "droneMapping": {
-      "title": "Drone Area Mapping",
-      "desc": "Aerial mapping for topographic surveys, inspections and generation of orthophotos and 3D models for real estate projects and assessments."
-    },
-    "auctionProperties": {
-      "title": "Auction Properties",
-      "desc": "Identification and brokerage of auction opportunities, due diligence and risk analysis prior to purchase."
-    },
-    "minhaCasa": {
-      "title": "Minha Casa Minha Vida",
-      "desc": "Assistance in finding and participating in housing programs, with eligibility guidance and paperwork support."
-    }
-  },
-
-  "projects": {
+    "name": "Saulo Candeira",
+    "position": "Software and Electronics Developer",
     "description": "I have a background in management, technology, and languages, and I am dedicated to software and electronics development. I aim to integrate software, 3D printing, and electronics to create technological innovations. I work as a programmer, and in my spare time, I mainly develop integrations of programmable boards with electric motors for CNC machines, scooters, bicycles, and drones.",
     "socialLinks": {
       "linkedin": "LinkedIn",
@@ -61,16 +43,66 @@
     },
     "business": {
       "businessPlan": "Business Plan",
-      "businessPlanDesc": "Create business models for companies looking to enter the digital era.",
-      "agileMethodology": "Agile Methodology",
-      "agileMethodologyDesc": "Implement agile methodologies to improve business and company efficiency.",
-      "managementSystem": "Management System",
-      "managementSystemDesc": "Project management system to maximize business or project efficiency."
+      "businessPlanDesc": "Develop complete business plans: market analysis, financial modeling and an implementation roadmap to validate opportunities.",
+      "agileMethodology": "Agile Methodologies",
+      "agileMethodologyDesc": "Adoption and training in agile practices (Scrum, Kanban) to increase productivity, collaboration and continuous delivery.",
+      "managementSystem": "Project Management System",
+      "managementSystemDesc": "Implement processes and tools to plan, track and deliver projects with better control and efficiency."
+    },
+    "realEstate": {
+      "buySell": {
+        "title": "Buy, Sell and Brokerage",
+        "desc": "Services for buying, selling and brokering residential and commercial properties — market appraisal and legal/document support."
+      },
+      "droneMapping": {
+        "title": "Drone Area Mapping",
+        "desc": "Aerial mapping for topographic surveys, inspections and generation of orthophotos and 3D models for real estate projects and assessments."
+      },
+      "auctionProperties": {
+        "title": "Auction Properties",
+        "desc": "Identification and brokerage of auction opportunities, due diligence and risk analysis prior to purchase."
+      },
+      "minhaCasa": {
+        "title": "Minha Casa Minha Vida",
+        "desc": "Assistance in finding and participating in housing programs, with eligibility guidance and paperwork support."
+      }
     }
   },
 
-    "realEstate": {},
+  "realEstate": {
+    "buySell": {
+      "title": "Buy, Sell and Brokerage",
+      "desc": "Services for buying, selling and brokering residential and commercial properties — market appraisal and legal/document support."
+    },
+    "droneMapping": {
+      "title": "Drone Area Mapping",
+      "desc": "Aerial mapping for topographic surveys, inspections and generation of orthophotos and 3D models for real estate projects and assessments."
+    },
+    "auctionProperties": {
+      "title": "Auction Properties",
+      "desc": "Identification and brokerage of auction opportunities, due diligence and risk analysis prior to purchase."
+    },
+    "minhaCasa": {
+      "title": "Minha Casa Minha Vida",
+      "desc": "Assistance in finding and participating in housing programs, with eligibility guidance and paperwork support."
+    }
+  },
 
+  "prototyping": {
+    "drawing3d": "3D Drawing",
+    "drawing3dDesc": "Create detailed 3D models for a variety of applications.",
+    "3dPrinting": "3D Printing",
+    "3dPrintingDesc": "Turn your digital designs into physical objects with our high-quality 3D printers."
+  },
+
+  "business": {
+    "businessPlan": "Business Plan",
+    "businessPlanDesc": "Develop complete business plans: market analysis, financial modeling and an implementation roadmap to validate opportunities.",
+    "agileMethodology": "Agile Methodologies",
+    "agileMethodologyDesc": "Adoption and training in agile practices (Scrum, Kanban) to increase productivity, collaboration and continuous delivery.",
+    "managementSystem": "Project Management System",
+    "managementSystemDesc": "Implement processes and tools to plan, track and deliver projects with better control and efficiency."
+  },
 
   "projects": {
     "title": "Portfolio",
@@ -83,5 +115,4 @@
     "name": "Saulo Candeira",
     "allRightsReserved": "All rights reserved"
   }
-
 }
